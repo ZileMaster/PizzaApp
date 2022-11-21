@@ -7,3 +7,7 @@
     background-color: coral;
     
 }
+
+.card.izabrano{
+    background-color: darkgreen;
+}

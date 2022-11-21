@@ -7,7 +7,7 @@
 <body>
     <div class="container-fluid p-5 bg-success text-black text-left">
         <h1>Order your Pizza now!</h1>
-        <form method="post" action="http://postman-echo.com/post">
+        <form method="post" id="form" action="http://postman-echo.com/post">
             <div class="row bg-success">
                 <div class="card col-sm-4">
                     <img class="card-img-top" src="img/kapricoza.jpg" >
@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="form-floating mb-3 mt-3">
-                    <input type="text" class="form-control" id="vreme-dostave"  
+                    <input type="number" class="form-control" id="vreme-dostave"  
                                 placeholder="Time for delivery" name="vreme-dostave">
                                 <label for="vreme-dostave">Time for delivery</label>
                     </div>
